@@ -9,7 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>flinkDemo1</module>
+        <module>flinkDemo01</module>
+        <module>flinkDemo02</module>
     </modules>
 
     <dependencies>

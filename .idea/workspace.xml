@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d79eaba-715c-4062-915a-10ca769910f2" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/flinkDemo01/target/" />
+    <ignored path="$PROJECT_DIR$/flinkDemo02/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/eventTime/Sensor_eventTime_sliding_window.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+              <folding>
+                <element signature="e#32#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/wc/WordCount.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/source/Sensor_source_file.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/resources/sensor.txt" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/entity/SensorRecord.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/transform/Sensor_transform_union.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/source/Sensor_source_list.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/transform/Sensor_transform_file.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/transform/Sensor_transform_split.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/sink/Sensor_sink_redis.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/transform/Sensor_transform_connect.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/sink/Sensor_sink_kafka.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/sink/Sensor_sink_es.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo01/pom.xml" />
+        <option value="$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/sink/Sensor_sink_jdbc.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo2/src/main/scala/com/practice/wc/WordCount.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo2/src/main/scala/com/practice/window/Sensor_time_window.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/flinkDemo02/pom.xml" />
+        <option value="$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_time_window.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_tumbling_window.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_sliding_window.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_time_sliding_window.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_count_tumbling_window.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_count_sliding_window.scala" />
+        <option value="$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/eventTime/Sensor_eventTime_sliding_window.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\development_tools\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\development_tools\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="582" />
+    <option name="y" value="6" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flinkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flinkDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flinkDemo02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="window" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CatdeaLogs" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587892799666" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.practice.eventTime" />
+      <recent name="com.practice.window" />
+      <recent name="com.practice.sink" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\development_tools\ideaprojects\flinkDemo\flinkDemo02\src\main" />
+      <recent name="D:\development_tools\ideaprojects\flinkDemo\flinkDemo2\src\main\scala" />
+      <recent name="D:\development_tools\ideaprojects\flinkDemo\flinkDemo01\src\main\scala\com\practice\sink" />
+      <recent name="D:\development_tools\ideaprojects\flinkDemo\flinkDemo01\src\main\scala\com\practice\transform" />
+      <recent name="D:\development_tools\ideaprojects\flinkDemo\flinkDemo01\src\main\scala\com\practice\source" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Sensor_eventTime_sliding_window">
+    <configuration name="Sensor_count_tumbling_window" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.window.Sensor_count_tumbling_window" />
+      <module name="flinkDemo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sensor_eventTime_sliding_window" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.eventTime.Sensor_eventTime_sliding_window" />
+      <module name="flinkDemo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.eventTime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sensor_sink_redis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.sink.Sensor_sink_es" />
+      <module name="flinkDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.sink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sensor_time_window" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.window.Sensor_count_sliding_window" />
+      <module name="flinkDemo02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sensor_transform_split" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.transform.Sensor_transform_split" />
+      <module name="flinkDemo01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.practice.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="flinkDemo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="flinkDemo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Sensor_sink_redis" />
+      <item itemvalue="Application.Sensor_transform_split" />
+      <item itemvalue="Application.Sensor_time_window" />
+      <item itemvalue="Application.Sensor_count_tumbling_window" />
+      <item itemvalue="Application.Sensor_eventTime_sliding_window" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Sensor_eventTime_sliding_window" />
+        <item itemvalue="Application.Sensor_count_tumbling_window" />
+        <item itemvalue="Application.Sensor_time_window" />
+        <item itemvalue="Application.Sensor_sink_redis" />
+        <item itemvalue="Application.Sensor_transform_split" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d79eaba-715c-4062-915a-10ca769910f2" name="Default Changelist" comment="" />
+      <created>1587831296123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587831296123</updated>
+      <workItem from="1587831300413" duration="23683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23683000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17803837" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32911393" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32220945" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" weight="0.16311301" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/resources/hello.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/wc/StreamWordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/wc/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/source/Sensor_source_file.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/source/Sensor_source_list.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#29#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/entity/SensorRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/transform/Sensor_transform_file.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#32#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/transform/Sensor_transform_connect.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+          <folding>
+            <element signature="e#32#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/transform/Sensor_transform_split.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="e#32#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/sink/Sensor_sink_redis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
+          <folding>
+            <element signature="e#27#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/sink/Sensor_sink_es.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="57" column="7" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/sink/Sensor_sink_kafka.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#27#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/sink/Sensor_sink_jdbc.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo2/src/main/scala/com/practice/wc/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo2/src/main/scala/com/practice/window/Sensor_time_window.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/source/Sensor_source_kafka.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo02/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/scala/com/practice/transform/Sensor_transform_union.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#32#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo01/src/main/resources/sensor.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_time_tumbling_window.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="e#29#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_count_tumbling_window.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_count_sliding_window.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/entity/SensorRecord.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/window/Sensor_time_sliding_window.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flinkDemo02/src/main/scala/com/practice/eventTime/Sensor_eventTime_sliding_window.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding>
+            <element signature="e#32#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flinkDemo02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
